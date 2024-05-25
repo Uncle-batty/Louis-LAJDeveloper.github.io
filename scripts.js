@@ -8,7 +8,7 @@ function loadBlogPosts() {
     // Replace with your own blog fetching logic
     document.getElementById("blog-posts").innerHTML = `
         <div class="post">
-            <h3>Comeing soon.</h3>
+            <h3>Coming soon.</h3>
            <!-- <p>This is a sample blog post...</p> -->
         </div>
     `;
