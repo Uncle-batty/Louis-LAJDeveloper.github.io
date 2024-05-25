@@ -61,6 +61,10 @@ function showCodeUnavailableAlert() {
     alert("Sorry, the code isn't available due to IP restrictions.");
 }
 
+function showInprogressAlert() {
+    alert("Sorry, this is still a work in progress.");
+}
+
 
 document.getElementById('contact-form').addEventListener('submit', function (event) {
     event.preventDefault();
