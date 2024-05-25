@@ -1,0 +1,375 @@
+/* Basic reset and styling */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    color: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: radial-gradient(circle at center center, rgba(33, 33, 33, 0), rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(45deg, rgb(56, 56, 56) 0px, rgb(56, 56, 56) 5px, transparent 5px, transparent 6px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+
+    h2 {
+            text-align: center;
+        }
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 2rem;
+    background: #f4f4f4;
+background-image: linear-gradient(45deg, rgb(73, 160, 30) 0%, rgb(73, 160, 30) 6%, rgb(88, 141, 55) 6%, rgb(88, 141, 55) 11%, rgb(103, 122, 81) 11%, rgb(103, 122, 81) 55%, rgb(118, 103, 106) 55%, rgb(118, 103, 106) 81%, rgb(132, 84, 131) 81%, rgb(132, 84, 131) 83%, rgb(147, 65, 156) 83%, rgb(147, 65, 156) 92%, rgb(162, 46, 182) 92%, rgb(162, 46, 182) 95%, rgb(177, 27, 207) 95%, rgb(177, 27, 207) 100%), linear-gradient(112.5deg, rgb(73, 160, 30) 0%, rgb(73, 160, 30) 6%, rgb(88, 141, 55) 6%, rgb(88, 141, 55) 11%, rgb(103, 122, 81) 11%, rgb(103, 122, 81) 55%, rgb(118, 103, 106) 55%, rgb(118, 103, 106) 81%, rgb(132, 84, 131) 81%, rgb(132, 84, 131) 83%, rgb(147, 65, 156) 83%, rgb(147, 65, 156) 92%, rgb(162, 46, 182) 92%, rgb(162, 46, 182) 95%, rgb(177, 27, 207) 95%, rgb(177, 27, 207) 100%), linear-gradient(67.5deg, rgb(73, 160, 30) 0%, rgb(73, 160, 30) 6%, rgb(88, 141, 55) 6%, rgb(88, 141, 55) 11%, rgb(103, 122, 81) 11%, rgb(103, 122, 81) 55%, rgb(118, 103, 106) 55%, rgb(118, 103, 106) 81%, rgb(132, 84, 131) 81%, rgb(132, 84, 131) 83%, rgb(147, 65, 156) 83%, rgb(147, 65, 156) 92%, rgb(162, 46, 182) 92%, rgb(162, 46, 182) 95%, rgb(177, 27, 207) 95%, rgb(177, 27, 207) 100%), linear-gradient(90deg, rgb(24, 15, 143), rgb(170, 57, 157));
+    background-blend-mode: overlay, overlay, overlay, normal;
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.about-text p {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* CV section */
+#cv .cv-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.cv-section {
+background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%, rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%, rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%, rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%, rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%, rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%, rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%), linear-gradient(90deg, rgb(195, 195, 195), rgb(228, 228, 228));
+    background-blend-mode: overlay, overlay, overlay, normal;
+    color: #333;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.cv-section h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.cv-section p,
+.cv-section ul,
+.cv-section li {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.cv-download {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.cv-download:hover {
+    background: #555;
+}
+
+/* projects */
+#projects {
+    padding: 2rem;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #f4f4f4;
+}
+
+.project-card {
+    width: 45%;
+    /* Each card takes up 45% of the container width */
+    margin: 1rem;
+    background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148, 0.06) 0%, rgba(148, 148, 148, 0.06) 50%, rgba(63, 63, 63, 0.06) 50%, rgba(63, 63, 63, 0.06) 100%), radial-gradient(circle at 68% 87%, rgba(66, 66, 66, 0.06) 0%, rgba(66, 66, 66, 0.06) 50%, rgba(105, 105, 105, 0.06) 50%, rgba(105, 105, 105, 0.06) 100%), radial-gradient(circle at 38% 50%, rgba(123, 123, 123, 0.06) 0%, rgba(123, 123, 123, 0.06) 50%, rgba(172, 172, 172, 0.06) 50%, rgba(172, 172, 172, 0.06) 100%), linear-gradient(90deg, hsl(18, 0%, 1%), hsl(18, 0%, 1%));
+    border-radius: 8px;
+    padding: 1rem;
+    height: 80vh;
+    /* Each row takes up 80% of the viewport height */
+    overflow: hidden;
+}
+
+.project-images {
+    height: 50%;
+    /* Each card takes up 50% of the card height */
+    overflow: hidden;
+}
+
+.project-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Ensure images fill the container */
+    transition: transform 0.5s ease;
+    /* Smooth transition for image swapping */
+}
+
+.project-details {
+    padding: 1rem 0;
+}
+
+.project-details h3 {
+    color: #f4f4f4;
+    margin-bottom: 0.5rem;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.project-buttons a {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.project-buttons a:hover {
+    background-color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+        /* Each card takes up 100% of the container width on smaller screens */
+    }
+        .project-images {
+            height: 20%;
+            /* Each card takes up 50% of the card height */
+            overflow: hidden;
+        }
+                #projects {
+                    padding: 3%;
+                    margin: 0%;
+                }
+}
+
+
+/* Certificates section */
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.certificate p {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #f4f4f4;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .certificates-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text,
+    .about-image {
+        max-width: 100%;
+    }
+
+    .about-text h1 {
+        font-size: 2rem;
+    }
+
+    .certificates-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* #linkedin-posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: center;
+}
+.post {
+    max-width: calc(100% - 1rem);
+}
+*/
+.glide__slide {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    /* Each slide takes up 40% of the screen */
+    align-items: center;
+}
+
+.glide__slide img {
+    width: 100%;
+    /* Make the image fill the slide */
+    height: auto;
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the slide's width */
+    border-radius: 8px;
+}
+
+/* Contact section */
+#contact {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(46, 46, 46) 0%, rgb(46, 46, 46) 22%, rgb(81, 81, 81) 22%, rgb(81, 81, 81) 75%, rgb(115, 115, 115) 75%, rgb(115, 115, 115) 77%, rgb(150, 150, 150) 77%, rgb(150, 150, 150) 82%, rgb(184, 184, 184) 82%, rgb(184, 184, 184) 93%, rgb(219, 219, 219) 93%, rgb(219, 219, 219) 98%, rgb(253, 253, 253) 98%, rgb(253, 253, 253) 100%), linear-gradient(135deg, rgb(46, 46, 46) 0%, rgb(46, 46, 46) 22%, rgb(81, 81, 81) 22%, rgb(81, 81, 81) 75%, rgb(115, 115, 115) 75%, rgb(115, 115, 115) 77%, rgb(150, 150, 150) 77%, rgb(150, 150, 150) 82%, rgb(184, 184, 184) 82%, rgb(184, 184, 184) 93%, rgb(219, 219, 219) 93%, rgb(219, 219, 219) 98%, rgb(253, 253, 253) 98%, rgb(253, 253, 253) 100%), linear-gradient(22.5deg, rgb(46, 46, 46) 0%, rgb(46, 46, 46) 22%, rgb(81, 81, 81) 22%, rgb(81, 81, 81) 75%, rgb(115, 115, 115) 75%, rgb(115, 115, 115) 77%, rgb(150, 150, 150) 77%, rgb(150, 150, 150) 82%, rgb(184, 184, 184) 82%, rgb(184, 184, 184) 93%, rgb(219, 219, 219) 93%, rgb(219, 219, 219) 98%, rgb(253, 253, 253) 98%, rgb(253, 253, 253) 100%), linear-gradient(157.5deg, rgb(46, 46, 46) 0%, rgb(46, 46, 46) 22%, rgb(81, 81, 81) 22%, rgb(81, 81, 81) 75%, rgb(115, 115, 115) 75%, rgb(115, 115, 115) 77%, rgb(150, 150, 150) 77%, rgb(150, 150, 150) 82%, rgb(184, 184, 184) 82%, rgb(184, 184, 184) 93%, rgb(219, 219, 219) 93%, rgb(219, 219, 219) 98%, rgb(253, 253, 253) 98%, rgb(253, 253, 253) 100%), linear-gradient(90deg, rgb(58, 58, 58), rgb(76, 76, 76));
+        background-blend-mode: overlay, overlay, overlay, overlay, normal;
+}
+
+.contact-form {
+    width: 80%;
+    max-width: 500px;
+    
+    /* Adjust max-width as needed */
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+#submit-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #555;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-form {
+        width: 90%;
+    }
+}
+
+ion-icon {
+    color: rgb(255, 255, 255);
+}
+/* Add any other necessary styles for ion-icons */
+
