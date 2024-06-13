@@ -217,8 +217,71 @@
 
         <section id="testimonials">
             <h2>Testimonials</h2>
-            <p>Coming soon...</p>
+            <div class="testimonials-grid">
+                <!-- Example testimonial card -->
+                <div class="testimonial-card">
+                    <p>"Louis is an exceptional developer who always goes above and beyond in his projects."</p>
+                    <p><strong>Tadi Chingwe</strong></p>
+                    <p>May 30, 2024</p>
+                    <p>Software Developer</p>
+                    <a href="https://www.linkedin.com/in/tadi-chingwe0/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Louis is a person with great character, his ability to lead and get quality work done truly inspires everyone around
+                    him."</p>
+                    <p><strong>Ayush</strong></p>
+                    <p>May 31, 2024</p>
+                    <p>Software Quality Specialist</p>
+                    <a href="https://www.linkedin.com/in/ayush-bhadra-9b66792b2/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="testimonial-card">
+                    <p>"When I enquired about the new system from the Helpdesk, I was put into contact with Louis Batty. What an
+                        undiluted
+                        pleasure and indeed privilege to have been able to explain challenges and to receive support and solutions in
+                        extremely
+                        short turnaround times. He clearly knows what he is doing, he made time to help and support (and that during the
+                        first
+                        week of live release) and on top of that he is most definitely the most polite and eloquent member of staff at
+                        this
+                        institution I have ever had the privilege to communicate with."</p>
+                    <p><strong>Prof Karen De Wet</strong></p>
+                    <p>June 13, 2024</p>
+                    <p>Associate Professor</p>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
         </section>
+        
+        <style>
+            .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+        
+            .testimonial-card {
+                background-image: repeating-linear-gradient(45deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(22.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(45deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(157.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(112.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(67.5deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(135deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),repeating-linear-gradient(90deg, hsla(253,0%,98%,0.03) 0px, hsla(253,0%,98%,0.03) 1px,transparent 1px, transparent 12px),linear-gradient(90deg, rgb(13, 8, 66),rgb(230, 168, 209));
+                border: 1px solid #ddd;
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+            }
+        
+            .testimonial-card p {
+                margin: 10px 0;
+            }
+        
+            .testimonial-card a {
+                color: #480151;
+                /* LinkedIn blue */
+                text-decoration: none;
+            }
+        
+            .testimonial-card a:hover {
+                text-decoration: underline;
+            }
+        </style>
+
 
         <section id="certificates">
             <h2>Certificates and Awards</h2>

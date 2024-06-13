@@ -42,7 +42,7 @@ function loadLinkedInPosts() {
     new Glide('.glide', {
         type: 'carousel',
         perView: 2, // Number of slides per view
-        autoplay: 1000, // Autoplay interval in milliseconds
+        autoplay: 2000, // Autoplay interval in milliseconds
         hoverpause: true, // Pause autoplay on hover
         gap: 10, // Space between slides
         breakpoints: {
