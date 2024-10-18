@@ -20,8 +20,7 @@ function loadLinkedInPosts() {
     var linkedinPosts = [
         { 'img': './Assets/Linked1.jpg', 'link':'https://www.linkedin.com/posts/dev-louis-batty_teamappreciation-entlectteam-entlectopenday-activity-7196552324637483010-lnfg?utm_source=share&utm_medium=member_desktop'},
         { 'img': './Assets/Linked2.jpg', 'link': 'https://www.linkedin.com/posts/dev-louis-batty_teamuxplore-innovationjourney-activity-7196118166501023744-6ndw?utm_source=share&utm_medium=member_desktop' },
-        { 'img': './Assets/Linked3.jpg', 'link': 'https://www.linkedin.com/posts/dev-louis-batty_microsoft-kuunda-uj-activity-7187090703246659585-gSYj?utm_source=share&utm_medium=member_desktop' },
-        { 'img': './Assets/Linked4.jpg', 'link': 'https://www.linkedin.com/posts/dev-louis-batty_ais-marketing-bsg-activity-7167934286665306112-yq3E?utm_source=share&utm_medium=member_desktop' },
+        { 'img': './Assets/Linked3.jpg', 'link': 'https://www.linkedin.com/posts/dev-louis-batty_microsoft-kuunda-uj-activity-7187090703246659585-gSYj?utm_source=share&utm_medium=member_desktop' }
         // Add more LinkedIn post image URLs as needed
     ];
 

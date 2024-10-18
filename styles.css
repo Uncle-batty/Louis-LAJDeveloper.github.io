@@ -28,6 +28,9 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background: #333;
     color: #fff;
     padding: 1rem;
@@ -43,6 +46,11 @@ nav a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #480151;
+    /* Change color on hover */
+    transition: color 0.3s ease-in;
+}
 main {
     flex: 1;
     padding: 2rem;
@@ -156,7 +164,13 @@ background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214,
     overflow:auto;
     
 }
+.project-card {
+    transition: transform 0.3s ease-in-out;
+}
 
+.project-card:hover {
+    transform: scale(1.05);
+}
 .project-images {
     height: 50%;
     /* Each card takes up 50% of the card height */
@@ -373,3 +387,9 @@ ion-icon {
 }
 /* Add any other necessary styles for ion-icons */
 
+@media (max-width: 768px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        /* One column on smaller screens */
+    }
+}
